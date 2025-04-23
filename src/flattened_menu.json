@@ -1,0 +1,1762 @@
+[
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Nuggets 25 PCs",
+        "description": "",
+        "sku": 510148,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510148.png",
+        "menu_text": "Nuggets 25 PCs - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 13733,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19357,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (13733)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "10 Pc Nuggets",
+        "description": "",
+        "sku": 510140,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510140.png",
+        "menu_text": "10 Pc Nuggets - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Medium Fries",
+        "description": "KFC's Golden Fries",
+        "sku": 510050,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510050.png",
+        "menu_text": "Medium Fries - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Pepsi Can",
+        "description": "",
+        "sku": 600001,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600001.png",
+        "menu_text": "Pepsi Can - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "7Up Can",
+        "description": "",
+        "sku": 600029,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600029.png",
+        "menu_text": "7Up Can - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Mountain Dew Can",
+        "description": "",
+        "sku": 600031,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600031.png",
+        "menu_text": "Mountain Dew Can - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12357,
+        "originalPrice": 23,
+        "specialPrice": 23,
+        "promoId": 19375,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Mirinda Can",
+        "description": "",
+        "sku": 600030,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600030.png",
+        "menu_text": "Mirinda Can - Nuggets (12357)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "15 PC Nuggets",
+        "description": "",
+        "sku": 519008,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/519008.png",
+        "menu_text": "15 PC Nuggets - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Medium Fries",
+        "description": "KFC's Golden Fries",
+        "sku": 510050,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510050.png",
+        "menu_text": "Medium Fries - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Pepsi Can",
+        "description": "",
+        "sku": 600001,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600001.png",
+        "menu_text": "Pepsi Can - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "7Up Can",
+        "description": "",
+        "sku": 600029,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600029.png",
+        "menu_text": "7Up Can - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Mountain Dew Can",
+        "description": "",
+        "sku": 600031,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600031.png",
+        "menu_text": "Mountain Dew Can - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12358,
+        "originalPrice": 29,
+        "specialPrice": 29,
+        "promoId": 19377,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Mirinda Can",
+        "description": "",
+        "sku": 600030,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/600030.png",
+        "menu_text": "Mirinda Can - Nuggets (12358)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Meal",
+        "description": "",
+        "sku": 310069,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/310069.png",
+        "menu_text": "Meal - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "7Pc Strips",
+        "description": "",
+        "sku": 316026,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/316026.png",
+        "menu_text": "7Pc Strips - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Crispy Strips Original",
+        "description": "",
+        "sku": 511001,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/511001.png",
+        "menu_text": "Crispy Strips Original - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Crispy Strips Spicy",
+        "description": "",
+        "sku": 511002,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/511002.png",
+        "menu_text": "Crispy Strips Spicy - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Hot Wings 7 Pcs",
+        "description": "",
+        "sku": 310080,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/310080.png",
+        "menu_text": "Hot Wings 7 Pcs - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Nuggets 20 PCs",
+        "description": "",
+        "sku": 510139,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510139.png",
+        "menu_text": "Nuggets 20 PCs - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12346,
+        "originalPrice": 65,
+        "specialPrice": 65,
+        "promoId": 19378,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Family Fries",
+        "description": "KFC's Golden Fries",
+        "sku": 510005,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510005.png",
+        "menu_text": "Family Fries - Nuggets (12346)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "10 Pc Nuggets",
+        "description": "",
+        "sku": 510140,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510140.png",
+        "menu_text": "10 Pc Nuggets - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12348,
+        "originalPrice": 12,
+        "specialPrice": 12,
+        "promoId": 19379,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12348)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Nuggets 7 PCs",
+        "description": "",
+        "sku": 510142,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/510142.png",
+        "menu_text": "Nuggets 7 PCs - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Dynamite Sauce",
+        "description": "",
+        "sku": 810028,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810028.png",
+        "menu_text": "Dynamite Sauce - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Chilli Sauce",
+        "description": "",
+        "sku": 816003,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/816003.png",
+        "menu_text": "Sweet Chilli Sauce - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "BBQ Sauce",
+        "description": "",
+        "sku": 810042,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810042.png",
+        "menu_text": "BBQ Sauce - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Garlic Buttermilk Mayonnaise Sauce",
+        "description": "",
+        "sku": 810041,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810041.png",
+        "menu_text": "Garlic Buttermilk Mayonnaise Sauce - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Colonel's Signature Sauce",
+        "description": "",
+        "sku": 810040,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810040.png",
+        "menu_text": "Colonel's Signature Sauce - Nuggets (12356)"
+    },
+    {
+        "category": "Nuggets",
+        "category_id": 1029,
+        "product_id": 12356,
+        "originalPrice": 7,
+        "specialPrice": 7,
+        "promoId": 19373,
+        "services": {
+            "take_away": 1,
+            "carhop": 1,
+            "delevery": 1,
+            "dine_in": 1,
+            "drivethru": 1
+        },
+        "option_title": "Sweet Mustard Dip",
+        "description": "",
+        "sku": 810062,
+        "image": "https://kfcprodimages-ehcsdud6a5a5eqcm.z01.azurefd.net/cmsimages/kfc/uae/imagestemp/810062.png",
+        "menu_text": "Sweet Mustard Dip - Nuggets (12356)"
+    }
+]
