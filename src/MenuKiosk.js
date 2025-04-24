@@ -1,10 +1,10 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import Kiosksinterface from './kiosksinterface';
 import processjson from './flattened_menu';
 
 const MenuKiosk = () => {
     const [query, setQuery] = useState('');
+    const [voiceQuery, setVoiceQuery] = useState('');
     const [response, setResponse] = useState([]);
     const [messages, setMessages] = useState([
         { type: 'bot', text: 'Welcome to KFC. What would you like to order?' }
@@ -17,6 +17,7 @@ const MenuKiosk = () => {
 
     useEffect(() => {
         const speakWelcome = () => {
+            window.speechSynthesis.cancel();
             const message = new SpeechSynthesisUtterance("Welcome to KFC. What would you like to order?");
             message.lang = 'en-US';
             message.rate = 1;
@@ -79,7 +80,7 @@ const MenuKiosk = () => {
         if (isRecording && recognitionRef.current) {
             recognitionRef.current.stop();
             setIsRecording(false);
-            setQuery('');
+            setVoiceQuery('');
             clearTimeout(micTimeoutRef.current);
             return;
         }
@@ -92,41 +93,38 @@ const MenuKiosk = () => {
         recognition.maxAlternatives = 1;
 
         let finalTranscript = '';
+
         recognition.onstart = () => {
-            console.log("Speech recognition started...");
+            window.speechSynthesis.cancel();
             const msg = new SpeechSynthesisUtterance("I'm listening...");
+            msg.lang = 'en-US';
             window.speechSynthesis.speak(msg);
 
             setIsRecording(true);
-            setQuery('');
+            setVoiceQuery('');
             finalTranscript = '';
+
             micTimeoutRef.current = setTimeout(() => {
                 recognition.stop();
                 setIsRecording(false);
             }, 30000);
         };
 
-
         recognition.onresult = (event) => {
-            let interimTranscript = '';
             for (let i = event.resultIndex; i < event.results.length; ++i) {
                 const transcript = event.results[i][0].transcript;
                 if (event.results[i].isFinal) {
                     finalTranscript += transcript + ' ';
                     const cleanedText = transcript.trim().replace(/\s+/g, ' ');
-                    setQuery(prev => (prev + cleanedText + ' ').trim());
+                    setVoiceQuery(cleanedText);
                     handleSubmit(cleanedText);
-                } else {
-                    interimTranscript += transcript;
                 }
             }
-            setQuery((finalTranscript + interimTranscript).trim().replace(/\s+/g, ' '));
         };
+
         recognition.onerror = (event) => {
             console.error("Speech recognition error:", event.error);
-        
             if (event.error === 'no-speech') {
-                
                 recognition.stop();
                 setTimeout(() => {
                     handleMicClick();
@@ -147,6 +145,7 @@ const MenuKiosk = () => {
 
     const handleReset = () => {
         setQuery('');
+        setVoiceQuery('');
         setResponse([]);
         setMessages([
             { type: 'bot', text: 'Welcome to KFC. What would you like to order?' }
@@ -190,8 +189,7 @@ const MenuKiosk = () => {
                         }}
                         placeholder="Type your query here..."
                     />
-
-                    {query && (
+                    {(query || voiceQuery || response.length > 0 || messages.length > 1) && (
                         <button className="reset-button" onClick={handleReset}>
                             &#x27F3;
                         </button>
@@ -210,7 +208,6 @@ const MenuKiosk = () => {
                             '🎙️'
                         )}
                     </button>
-
                 </div>
 
                 <button className="submit-button" onClick={() => handleSubmit()}>
