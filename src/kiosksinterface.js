@@ -31,24 +31,7 @@ const KiosksInterface = ({ response, commandText }) => {
         setCart(prevCart => [...prevCart, itemdata[index]]);
     };
 
-    // ✅ Listen for voice commands
-    useEffect(() => {
-        if (!commandText) return;
-
-        if (commandText === 'order') {
-            if (itemdata.length > 0) {
-                handleAddToCart(0);
-                console.log('🛒 Added first item via voice command');
-            }
-        } else if (commandText === 'clear') {
-            setQuantity({});
-            setCart([]);
-        } else if (commandText === 'reset') {
-            setQuantity({});
-            setCart([]);
-            setIsModalOpen(false);
-        }
-    }, [commandText]);
+   
 
     const calculateTotal = () => {
         let totalCount = 0;

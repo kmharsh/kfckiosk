@@ -20,52 +20,75 @@ const MenuKiosk = () => {
             window.speechSynthesis.cancel();
             const message = new SpeechSynthesisUtterance("Welcome to KFC. What would you like to order?");
             message.lang = 'en-US';
-            message.rate = 1;
-            message.pitch = 1;
             window.speechSynthesis.speak(message);
         };
-
-        setTimeout(() => {
-            speakWelcome();
-            handleMicClick();
-        }, 500);
+        speakWelcome();
     }, []);
+
+    const sendHistoryToAPI = async (messagesHistory) => {
+        const payload = {
+            conversation: messagesHistory
+        };
+
+        try {
+            console.log("📡 Sending full chat history to API:", payload);
+
+            // Uncomment and update the URL below to send data to a real server
+            // const res = await fetch('https://yourapi.com/conversation-history', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/json',
+            //     },
+            //     body: JSON.stringify(payload),
+            // });
+
+            // if (!res.ok) throw new Error('Failed to send chat history');
+            // const result = await res.json();
+            // console.log("✅ Server Response:", result);
+        } catch (err) {
+            console.error("❌ API Error:", err.message);
+        }
+    };
 
     const handleSubmit = (searchText = query) => {
         const normalizedText = searchText.trim().toLowerCase().replace(/\s+/g, ' ');
+
         if (!normalizedText) {
             alert("Please enter a query or use the mic.");
             return;
         }
 
         setLoading(true);
-        setMessages(prev => [...prev, { type: 'user', text: searchText }]);
+        const newUserMessage = { type: 'user', text: searchText };
 
         const filteredAssets = processjson.filter(item => {
-            const textFields = [
-                item.category,
-                item.option_title,
-                item.menu_text,
-                item.description
-            ];
-            return textFields.some(field =>
-                field?.toLowerCase().includes(normalizedText)
-            );
+            const textFields = [item.category, item.option_title, item.menu_text, item.description];
+            return textFields.some(field => field?.toLowerCase().includes(normalizedText));
+        });
+
+        const botText = filteredAssets.length > 0
+            ? `Here are some items related to "${searchText}":`
+            : `Sorry, I couldn’t find anything for "${searchText}".`;
+
+        const botMessage = {
+            type: 'bot',
+            text: botText,
+            items: filteredAssets.length > 0 ? filteredAssets : null
+        };
+
+        if (filteredAssets.length === 0) {
+            const msg = new SpeechSynthesisUtterance("Sorry, I couldn’t find anything. Please try again with a different item.");
+            msg.lang = 'en-US';
+            window.speechSynthesis.speak(msg);
+        }
+
+        setMessages(prev => {
+            const updated = [...prev, newUserMessage, botMessage];
+            sendHistoryToAPI(updated);
+            return updated;
         });
 
         setResponse(filteredAssets);
-
-        setMessages(prev => [
-            ...prev,
-            {
-                type: 'bot',
-                text: filteredAssets.length > 0
-                    ? `Here are some items related to "${searchText}":`
-                    : `Sorry, I couldn’t find anything for "${searchText}".`,
-                items: filteredAssets.length > 0 ? filteredAssets : null
-            }
-        ]);
-
         setLoading(false);
     };
 
@@ -90,16 +113,11 @@ const MenuKiosk = () => {
         recognition.lang = 'en-US';
         recognition.interimResults = true;
         recognition.continuous = true;
-        recognition.maxAlternatives = 1;
 
         let finalTranscript = '';
 
         recognition.onstart = () => {
             window.speechSynthesis.cancel();
-            const msg = new SpeechSynthesisUtterance("I'm listening...");
-            msg.lang = 'en-US';
-            window.speechSynthesis.speak(msg);
-
             setIsRecording(true);
             setVoiceQuery('');
             finalTranscript = '';
@@ -124,15 +142,8 @@ const MenuKiosk = () => {
 
         recognition.onerror = (event) => {
             console.error("Speech recognition error:", event.error);
-            if (event.error === 'no-speech') {
-                recognition.stop();
-                setTimeout(() => {
-                    handleMicClick();
-                }, 1000);
-            } else {
-                setIsRecording(false);
-                clearTimeout(micTimeoutRef.current);
-            }
+            setIsRecording(false);
+            clearTimeout(micTimeoutRef.current);
         };
 
         recognition.onend = () => {
@@ -152,9 +163,7 @@ const MenuKiosk = () => {
         ]);
         setLoading(false);
 
-        if (recognitionRef.current) {
-            recognitionRef.current.stop();
-        }
+        if (recognitionRef.current) recognitionRef.current.stop();
 
         setIsRecording(false);
         clearTimeout(micTimeoutRef.current);
@@ -173,9 +182,7 @@ const MenuKiosk = () => {
                 ))}
             </div>
 
-            {loading && (
-                <div className="loading">Loading...</div>
-            )}
+            {loading && <div className="loading">Loading...</div>}
 
             <div className="chat-actions">
                 <div className="input-container">
@@ -183,10 +190,7 @@ const MenuKiosk = () => {
                         type="text"
                         className="query-input"
                         value={query}
-                        onChange={(e) => {
-                            const cleaned = e.target.value.replace(/\s+/g, ' ');
-                            setQuery(cleaned);
-                        }}
+                        onChange={(e) => setQuery(e.target.value.replace(/\s+/g, ' '))}
                         placeholder="Type your query here..."
                     />
                     {(query || voiceQuery || response.length > 0 || messages.length > 1) && (
