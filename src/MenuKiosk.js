@@ -1,5 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Kiosksinterface from './kiosksinterface';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMicrophone, faMicrophoneSlash, faRotate } from '@fortawesome/free-solid-svg-icons';
+
+
 import processjson from './flattened_menu';
 
 const MenuKiosk = () => {
@@ -199,7 +203,7 @@ const MenuKiosk = () => {
                         </button>
                     )}
 
-                    <button
+                    {/* <button
                         className={`mic-button ${isRecording ? 'recording' : ''}`}
                         onClick={handleMicClick}
                     >
@@ -209,8 +213,19 @@ const MenuKiosk = () => {
                                 <path d="M0 0h24v24H0z" fill="none"></path>
                             </svg>
                         ) : (
-                            '🎙️'
+                            <>
+                             🎙️
+                             <FontAwesomeIcon icon={isRecording ? faMicrophoneSlash : faMicrophone} />
+                            </>
+                           
                         )}
+                    </button> */}
+                    <button
+                        className={`mic-button ${isRecording ? 'recording' : ''}`}
+                        onClick={handleMicClick}
+                        aria-label="Toggle microphone"
+                    >
+                        <FontAwesomeIcon icon={isRecording ? faMicrophoneSlash : faMicrophone} />
                     </button>
                 </div>
 

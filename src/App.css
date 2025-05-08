@@ -135,7 +135,6 @@ body {
   background-color:transparent;
   color: white;
   border: none;
-  padding: 8px;
   font-size: 18px;
   border-radius: 50%;
   cursor: pointer;
@@ -315,6 +314,16 @@ body {
   border: none;
   outline: none;
 }
+.mic-button svg,
+.reset-button svg {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.mic-button.recording svg {
+    color: red;
+}
+
 
 /* Responsive */
 @media (max-width: 600px) {
