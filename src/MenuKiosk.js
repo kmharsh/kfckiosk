@@ -202,24 +202,6 @@ const MenuKiosk = () => {
                             &#x27F3;
                         </button>
                     )}
-
-                    {/* <button
-                        className={`mic-button ${isRecording ? 'recording' : ''}`}
-                        onClick={handleMicClick}
-                    >
-                        {isRecording ? (
-                            <svg width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M8 5v14l7-7-7-7z"></path>
-                                <path d="M0 0h24v24H0z" fill="none"></path>
-                            </svg>
-                        ) : (
-                            <>
-                             🎙️
-                             <FontAwesomeIcon icon={isRecording ? faMicrophoneSlash : faMicrophone} />
-                            </>
-                           
-                        )}
-                    </button> */}
                     <button
                         className={`mic-button ${isRecording ? 'recording' : ''}`}
                         onClick={handleMicClick}
