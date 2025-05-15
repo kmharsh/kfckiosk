@@ -1,10 +1,7 @@
-import React from 'react';
-import MenuKiosk from './MenuKiosk';
+
+import MenuKiosk from './compoenent/MenuKiosk';
 
 function App() {
-//   const handleAddToCart = () => {
-//     console.log('App-level Add to Cart triggered');
-// };
 
   return (
     <div>

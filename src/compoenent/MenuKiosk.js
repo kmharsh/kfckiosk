@@ -2,23 +2,21 @@ import React, { useState, useRef, useEffect } from 'react';
 import Kiosksinterface from './kiosksinterface';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrophone, faMicrophoneSlash, faRotate } from '@fortawesome/free-solid-svg-icons';
+import { postFetchData } from "../utils/api";
+import { URLS } from "../utils/endpoints";
 
 
-import processjson from './flattened_menu';
 
 const MenuKiosk = () => {
     const [query, setQuery] = useState('');
     const [voiceQuery, setVoiceQuery] = useState('');
     const [response, setResponse] = useState([]);
-    const [messages, setMessages] = useState([
-        { type: 'bot', text: 'Welcome to KFC. What would you like to order?' }
-    ]);
+    const [messages, setMessages] = useState([{type:"user", message:"Welcome to KFC. What would you like to order?"}]);
     const [isRecording, setIsRecording] = useState(false);
     const [loading, setLoading] = useState(false);
 
     const recognitionRef = useRef(null);
     const micTimeoutRef = useRef(null);
-
     useEffect(() => {
         const speakWelcome = () => {
             window.speechSynthesis.cancel();
@@ -37,25 +35,18 @@ const MenuKiosk = () => {
         try {
             console.log("📡 Sending full chat history to API:", payload);
 
-            // Uncomment and update the URL below to send data to a real server
-            // const res = await fetch('https://yourapi.com/conversation-history', {
-            //     method: 'POST',
-            //     headers: {
-            //         'Content-Type': 'application/json',
-            //     },
-            //     body: JSON.stringify(payload),
-            // });
 
-            // if (!res.ok) throw new Error('Failed to send chat history');
-            // const result = await res.json();
-            // console.log("✅ Server Response:", result);
         } catch (err) {
             console.error("❌ API Error:", err.message);
         }
     };
 
-    const handleSubmit = (searchText = query) => {
+    const handleSubmit = async (searchText = query) => {
         const normalizedText = searchText.trim().toLowerCase().replace(/\s+/g, ' ');
+         let messages__ = [...messages]
+            messages__.push({ type: 'user', message: searchText });
+        
+            setMessages(messages__);
 
         if (!normalizedText) {
             alert("Please enter a query or use the mic.");
@@ -63,38 +54,26 @@ const MenuKiosk = () => {
         }
 
         setLoading(true);
-        const newUserMessage = { type: 'user', text: searchText };
 
-        const filteredAssets = processjson.filter(item => {
-            const textFields = [item.category, item.option_title, item.menu_text, item.description];
-            return textFields.some(field => field?.toLowerCase().includes(normalizedText));
-        });
+        try {
+            const resp = await postFetchData(URLS.POST_SEACH_DATA, JSON.stringify({ query: normalizedText }));
+            console.log(resp);
+            
+            let messages_ = [...messages__]
+            
+            messages_.push({ type: 'bot', message: resp.response?.answer });
+            setMessages(messages_);
 
-        const botText = filteredAssets.length > 0
-            ? `Here are some items related to "${searchText}":`
-            : `Sorry, I couldn’t find anything for "${searchText}".`;
-
-        const botMessage = {
-            type: 'bot',
-            text: botText,
-            items: filteredAssets.length > 0 ? filteredAssets : null
-        };
-
-        if (filteredAssets.length === 0) {
-            const msg = new SpeechSynthesisUtterance("Sorry, I couldn’t find anything. Please try again with a different item.");
-            msg.lang = 'en-US';
-            window.speechSynthesis.speak(msg);
+            setResponse(resp.response);
+        } catch (error) {
+            console.error("Error while fetching search data:", error);
+            alert("Something went wrong. Please try again later.");
+        } finally {
+            setLoading(false);
         }
-
-        setMessages(prev => {
-            const updated = [...prev, newUserMessage, botMessage];
-            sendHistoryToAPI(updated);
-            return updated;
-        });
-
-        setResponse(filteredAssets);
-        setLoading(false);
     };
+
+
 
     const handleMicClick = () => {
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -163,7 +142,7 @@ const MenuKiosk = () => {
         setVoiceQuery('');
         setResponse([]);
         setMessages([
-            { type: 'bot', text: 'Welcome to KFC. What would you like to order?' }
+            { type: 'bot', message: 'Welcome to KFC. What would you like to order?' }
         ]);
         setLoading(false);
 
@@ -175,14 +154,16 @@ const MenuKiosk = () => {
 
     return (
         <div className="chat-container">
-            <h1 className="chat-header">Menu Kiosk PoC</h1>
+            <h1 className="chat-header">Menu Kiosk</h1>
 
             <div className="chat-box">
-                {messages.map((msg, index) => (
-                    <div key={index} className={`chat-message ${msg.type}`}>
-                        {msg.text && <p>{msg.text}</p>}
-                        {msg.items && <Kiosksinterface response={msg.items} />}
+                {messages?.map((msg, index) => (
+                    <div key={index} className={`chat-message `}>
+                        <p>{msg?.message}</p>
+                        {msg.type ==="bot" &&
+                        <Kiosksinterface response={response} />}
                     </div>
+                    
                 ))}
             </div>
 
@@ -197,7 +178,7 @@ const MenuKiosk = () => {
                         onChange={(e) => setQuery(e.target.value.replace(/\s+/g, ' '))}
                         placeholder="Type your query here..."
                     />
-                    {(query || voiceQuery || response.length > 0 || messages.length > 1) && (
+                    {(query || voiceQuery || response.length > 0 || messages?.length > 1) && (
                         <button className="reset-button" onClick={handleReset}>
                             &#x27F3;
                         </button>
