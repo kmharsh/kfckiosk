@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { postFetchData } from "../utils/api";
 import { URLS } from "../utils/endpoints";
 import '../App.css';
@@ -117,7 +117,7 @@ const KiosksInterface = ({ response }) => {
                         <div className='bottomcart-wrp'>
                             <div className='burger-btnwrp'>
                                 <div className="burger-name">{item?.name || 'Item'}</div>
-                                <div className="burger-price">&#8377;{item?.price}</div>
+                                <div className="burger-price">AED {item?.price}</div>
                             </div>
                             {quantity[index] === undefined || quantity[index] === 0 ? (
                                 <button onClick={() => handleAddToCart(index)} className="simplebtn">Add to Order</button>

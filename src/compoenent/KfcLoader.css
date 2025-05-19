@@ -1,0 +1,39 @@
+/* KfcLoader.css */
+.kfc-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.kfc-loading-content {
+  text-align: center;
+  color: #fff;
+}
+
+.kfc-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.kfc-spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #e4002b; /* KFC red */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

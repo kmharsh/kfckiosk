@@ -6,9 +6,15 @@
 }
 
 body {
-  background-color: #fff8f6;
+  background-image: url(../public/KFC-BG.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Arial', sans-serif;
   color: #e4002b;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
 }
 
 /* === Container === */
@@ -21,11 +27,14 @@ body {
 
 /* === Header === */
 .chat-header {
-  text-align: center;
-  font-size: 2.5rem;
-  color: #e4002b;
-  margin-bottom: 20px;
-  font-weight: bold;
+     display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: anchor-center;
 }
 
 /* === Chat Box === */
@@ -40,6 +49,7 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   scroll-behavior: smooth;
+  max-height: 677px;
 }
 
 .chat-box::-webkit-scrollbar {
@@ -128,6 +138,7 @@ body {
   font-weight: bold;
   text-align: left;
   width: 50%;
+  color: #000;
 }
 
 .burger-price {

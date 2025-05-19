@@ -1,22 +1,24 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Kiosksinterface from './kiosksinterface';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMicrophone, faMicrophoneSlash, faRotate } from '@fortawesome/free-solid-svg-icons';
-import { postFetchData } from "../utils/api";
+import { faMicrophone, faMicrophoneSlash } from '@fortawesome/free-solid-svg-icons';
+import { postFetchData, getFetchData } from "../utils/api";
 import { URLS } from "../utils/endpoints";
-
-
+import KfcLoader from './KfcLoader';
 
 const MenuKiosk = () => {
     const [query, setQuery] = useState('');
     const [voiceQuery, setVoiceQuery] = useState('');
     const [response, setResponse] = useState([]);
-    const [messages, setMessages] = useState([{type:"user", message:"Welcome to KFC. What would you like to order?"}]);
+    const [messages, setMessages] = useState([
+        { type: "bot", message: "Welcome to KFC. What would you like to order?" }
+    ]);
     const [isRecording, setIsRecording] = useState(false);
     const [loading, setLoading] = useState(false);
 
     const recognitionRef = useRef(null);
     const micTimeoutRef = useRef(null);
+
     useEffect(() => {
         const speakWelcome = () => {
             window.speechSynthesis.cancel();
@@ -28,14 +30,9 @@ const MenuKiosk = () => {
     }, []);
 
     const sendHistoryToAPI = async (messagesHistory) => {
-        const payload = {
-            conversation: messagesHistory
-        };
-
+        const payload = { conversation: messagesHistory };
         try {
             console.log("📡 Sending full chat history to API:", payload);
-
-
         } catch (err) {
             console.error("❌ API Error:", err.message);
         }
@@ -43,27 +40,19 @@ const MenuKiosk = () => {
 
     const handleSubmit = async (searchText = query) => {
         const normalizedText = searchText.trim().toLowerCase().replace(/\s+/g, ' ');
-         let messages__ = [...messages]
-            messages__.push({ type: 'user', message: searchText });
-        
-            setMessages(messages__);
 
         if (!normalizedText) {
             alert("Please enter a query or use the mic.");
             return;
         }
 
+        setMessages(prev => [...prev, { type: 'user', message: searchText }]);
         setLoading(true);
 
         try {
             const resp = await postFetchData(URLS.POST_SEACH_DATA, JSON.stringify({ query: normalizedText }));
             console.log(resp);
-            
-            let messages_ = [...messages__]
-            
-            messages_.push({ type: 'bot', message: resp.response?.answer });
-            setMessages(messages_);
-
+            setMessages(prev => [...prev, { type: 'bot', message: resp.response?.answer }]);
             setResponse(resp.response);
         } catch (error) {
             console.error("Error while fetching search data:", error);
@@ -72,8 +61,6 @@ const MenuKiosk = () => {
             setLoading(false);
         }
     };
-
-
 
     const handleMicClick = () => {
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -86,7 +73,6 @@ const MenuKiosk = () => {
         if (isRecording && recognitionRef.current) {
             recognitionRef.current.stop();
             setIsRecording(false);
-            setVoiceQuery('');
             clearTimeout(micTimeoutRef.current);
             return;
         }
@@ -94,39 +80,49 @@ const MenuKiosk = () => {
         const recognition = new SpeechRecognition();
         recognitionRef.current = recognition;
         recognition.lang = 'en-US';
-        recognition.interimResults = true;
-        recognition.continuous = true;
-
-        let finalTranscript = '';
+        recognition.interimResults = false;
+        recognition.continuous = false;
 
         recognition.onstart = () => {
-            window.speechSynthesis.cancel();
             setIsRecording(true);
-            setVoiceQuery('');
-            finalTranscript = '';
-
             micTimeoutRef.current = setTimeout(() => {
                 recognition.stop();
-                setIsRecording(false);
-            }, 30000);
+            }, 10000);
         };
 
-        recognition.onresult = (event) => {
-            for (let i = event.resultIndex; i < event.results.length; ++i) {
-                const transcript = event.results[i][0].transcript;
-                if (event.results[i].isFinal) {
-                    finalTranscript += transcript + ' ';
-                    const cleanedText = transcript.trim().replace(/\s+/g, ' ');
-                    setVoiceQuery(cleanedText);
-                    handleSubmit(cleanedText);
-                }
+        recognition.onresult = async (event) => {
+            const transcript = event.results[0][0].transcript.trim();
+            setVoiceQuery(transcript);
+            const normalizedText = transcript.replace(/\s+/g, ' ');
+
+            try {
+                const resp = await postFetchData(URLS.POST_SEACH_DATA, JSON.stringify({ query: normalizedText }));
+                console.log("API Response:", resp);
+                setMessages(prev => [
+                    ...prev,
+                    { type: 'user', message: transcript },
+                    { type: 'bot', message: resp.response?.answer }
+                ]);
+                setResponse(resp.response);
+                setLoading(false);
+                setIsRecording(false);
+                clearTimeout(micTimeoutRef.current);
+                setQuery('');
+                setVoiceQuery('');
+                sendHistoryToAPI([
+                    ...messages,
+                    { type: 'user', message: transcript },
+                    { type: 'bot', message: resp.response?.answer }
+                ]);
+            } catch (error) {
+                console.error("API Error:", error);
+                setIsRecording(false);
             }
         };
 
         recognition.onerror = (event) => {
             console.error("Speech recognition error:", event.error);
             setIsRecording(false);
-            clearTimeout(micTimeoutRef.current);
         };
 
         recognition.onend = () => {
@@ -137,37 +133,45 @@ const MenuKiosk = () => {
         recognition.start();
     };
 
-    const handleReset = () => {
-        setQuery('');
-        setVoiceQuery('');
-        setResponse([]);
-        setMessages([
-            { type: 'bot', message: 'Welcome to KFC. What would you like to order?' }
-        ]);
-        setLoading(false);
-
-        if (recognitionRef.current) recognitionRef.current.stop();
-
-        setIsRecording(false);
-        clearTimeout(micTimeoutRef.current);
+    const handleReset = async () => {
+        try {
+            recognitionRef.current?.stop();
+            if (micTimeoutRef.current) clearTimeout(micTimeoutRef.current);
+            setIsRecording(false);
+            setQuery('');
+            setVoiceQuery('');
+            setResponse([]);
+            setLoading(false);
+            setMessages([{ type: 'bot', message: 'Welcome to KFC. What would you like to order?' }]);
+            if (URLS?.GET_RESET_DATA) {
+                const resetData = await getFetchData(URLS.GET_RESET_DATA);
+                console.log('Reset Data:', resetData);
+            } else {
+                console.warn('GET_RESET_DATA URL is not defined.');
+            }
+        } catch (error) {
+            console.error('Error during reset:', error);
+        }
     };
 
     return (
         <div className="chat-container">
-            <h1 className="chat-header">Menu Kiosk</h1>
+            <h1 className="chat-header">
+                <img src="/kfc-2.svg" alt="KFC Logo" className="logo" />Kiosk
+            </h1>
 
             <div className="chat-box">
                 {messages?.map((msg, index) => (
-                    <div key={index} className={`chat-message `}>
+                    <div key={index} className={`chat-message ${msg.type}`}>
                         <p>{msg?.message}</p>
-                        {msg.type ==="bot" &&
-                        <Kiosksinterface response={response} />}
+                        {msg.type === "bot" && index === messages.length - 1 && (
+                            <Kiosksinterface response={response} />
+                        )}
                     </div>
-                    
                 ))}
             </div>
 
-            {loading && <div className="loading">Loading...</div>}
+            {loading && <KfcLoader />}
 
             <div className="chat-actions">
                 <div className="input-container">
