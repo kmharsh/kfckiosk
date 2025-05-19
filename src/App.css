@@ -13,7 +13,7 @@ body {
   color: #e4002b;
 }
 .logo {
-  width: 100px;
+  max-width: 100px;
   margin-bottom: 10px;
 }
 
